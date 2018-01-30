@@ -21,8 +21,8 @@
 
         <label for="number">Numer telefonu</label>
         <input type="tel" name="number" id="number"><br><br>
-         Miasto:
-        <select name="miasto">
+        <label for="miasto">Miasto:</label>
+        <select name="miasto" id="miasto">
 		    <option>Kraków</option>
 		    <option>Warszawa</option>
 		    <option>Gdańsk</option>
@@ -31,7 +31,8 @@
         <input type="radio" value="kobieta" name="plec" id="kobieta" /><br><br>
         <label for="mezczyzna">Mężczyzna</label>
         <input type="radio" value="mężczyzna" name="plec" id="mezczyzna" /><br><br>
-        <input type="checkbox" name="dane-osobowe" value="wartość" />Zgoda na dane osobowe<br><br>
+        <label for="zgoda">Zgoda na dane osobowe</label>
+        <input type="checkbox" name="dane-osobowe" value="wartość" id="zgoda" /><br><br>
         <label for="wiadomosc">wiadomosc</label>
         <textarea maxlength="1000" id="wiadomosc" name="wiadomosc" cols="40" rows="5"></textarea><br><br>
         <input type="submit" value="Wyślij">
