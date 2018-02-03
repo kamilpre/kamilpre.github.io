@@ -1,0 +1,72 @@
+form {
+    background-color: #213b50;
+    padding: 15px;
+    color: white;
+}
+
+input, option, select, textarea {
+    background-color: #2b4a64;
+    border: 0px;
+    color: white;
+}
+
+input:focus, option:focus, select:focus, textarea:focus {
+    background-color: #4e708c;
+    border-color: white;
+    border: 5px;
+}
+input[type="submit"] {
+    background-color: green;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*
+form {
+    background-color: #213b50;
+    padding: 15px;
+    color: white;
+    width: 600px;
+}
+form input, fotm select {
+    margin-bottom: 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], form textarea {
+    width: 300px;
+    background-color : adasad;
+    color: white;
+    border: dasd 1px solid
+    height: 25px;
+}
+form textarea {
+    line-height: normal;
+}
+form select:focus, form input:focus, form textarea:focus {
+    background-color: q3234;
+    border: white 1px solid;
+    outline:none;
+}
+form select:hover, form input:hover, form textarea:hover {
+
+}
+form input[type="checkbox"]{
+    float: left;
+}
+form input[type="submit"] {
+    background-color: 12124;
+    border: adasd 1px solid;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 800;
+    cursor: pointer
+}
+form input[type="submit"]:hover {
+    background-color: sdfsfs;
+}
+*/

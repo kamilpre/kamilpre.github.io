@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zadanie-1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>zadanie domowe nr 1 (formularze)</h1>
+
+    <form action="https://formspree.io/kamil.predel@gmail.com" method="POST">
+        <label for="imie">Imię</label><br>
+        <input type="text" id="imie" name="imie"><br><br>
+
+        <label for="nazwisko">nazwisko</label><br>
+        <input type="text" id="nazwisko" name="nazwisko"><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="number">Numer telefonu</label><br>
+        <input type="tel" name="number" id="number"><br><br>
+        <label for="miasto">Miasto:</label><br>
+        <select name="miasto" id="miasto">
+		    <option>Kraków</option>
+		    <option>Warszawa</option>
+		    <option>Gdańsk</option>
+	    </select><br><br>
+        <label for="kobieta">Kobieta</label>
+        <input type="radio" value="kobieta" name="plec" id="kobieta" /><br><br>
+        <label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" value="mężczyzna" name="plec" id="mezczyzna" /><br><br>
+        <label for="zgoda">Zgoda na dane osobowe</label>
+        <input type="checkbox" name="dane-osobowe" value="wartość" id="zgoda" /><br><br>
+        <label for="wiadomosc">wiadomosc</label><br>
+        <textarea maxlength="1000" id="wiadomosc" name="wiadomosc" cols="40" rows="5"></textarea><br><br>
+        <input type="submit" value="Wyślij">
+
+    </form>
+</body>
+
+</html>
