@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+    #kontener {
+        width: 50%;
+    }
+}
+@media (max-width: 480px) {
+    #kontener {
+        width: 100%;
+    }
+}
