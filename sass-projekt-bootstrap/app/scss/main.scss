@@ -1,0 +1,41 @@
+@import 'zmienne';
+@import 'header';
+@import 'sections';
+@import 'footer';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-family: $base-font;
+	color: $base-color;
+	margin: 0;
+	font-weight: 300;
+} 
+
+span {
+	color: $additional-color;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+section {
+	padding: 0 80px 100px;
+	width: 100%; 
+}
+
+section h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+
+p {
+	line-height: 25px;
+}
